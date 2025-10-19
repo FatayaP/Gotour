@@ -12,12 +12,12 @@ class DestinasiController extends Controller
         $destinasi = [
             [
                 'nama' => 'Jalan Braga',
-                'gambar' => 'braga.webp',
+                'gambar' => 'barga.webp',
                 'deskripsi' => 'Jalan Braga adalah ikon kota Bandung yang memadukan nuansa kolonial dan modern. Nikmati keindahan arsitektur, kafe unik, dan suasana malam yang memikat.'
             ],
             [
                 'nama' => 'Ciwidey',
-                'gambar' => 'ciwidey.jpg',
+                'gambar' => 'Ciwidey Valley Hot Spring Waterpark Resort.jpg',
                 'deskripsi' => 'Ciwidey menawarkan keindahan alam pegunungan yang menakjubkan. Kunjungi perkebunan teh, Situ Patenggang, dan nikmati udara segar pegunungan.'
             ],
             [
@@ -27,12 +27,11 @@ class DestinasiController extends Controller
             ],
             [
                 'nama' => 'Kawah Putih',
-                'gambar' => 'kawahputih.webp',
+                'gambar' => 'kawah putih ciwidey.webp',
                 'deskripsi' => 'Kawah Putih adalah danau vulkanik dengan air berwarna putih kehijauan yang eksotis. Lokasinya sejuk dan cocok untuk bersantai.'
             ],
         ];
 
-        // Kirim data ke view
-        return view('populer', compact('destinasi'));
+        return view('destinasi_populer', compact('destinasi'));
     }
 }

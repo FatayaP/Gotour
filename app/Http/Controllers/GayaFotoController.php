@@ -41,6 +41,6 @@ class GayaFotoController extends Controller
             ],
         ];
 
-        return view('rekomendasifoto', compact('fotoList'));
+        return view('rekomendasi_foto', compact('fotoList'));
     }
 }

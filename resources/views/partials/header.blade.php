@@ -49,6 +49,47 @@
   background-color: #333;
 }
 
+/* Diskon */
+
+ .discount-card {
+      border-radius: 15px;
+      overflow: hidden;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .discount-card:hover {
+      transform: scale(1.03);
+  }
+
+  .discount-img {
+      height: 200px;
+      object-fit: cover;
+  }
+
+  .hero {
+      color: white;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  }
+
+/* Halaman Login */
+.auth-box {
+  background: #1E2A47;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.auth-box input {
+  background: #3E4A75;
+  border: none;
+  border-radius: 50px;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: white;
+  width: 100%;
+  outline: none;
+}
+
+
 /* Tambahan untuk halaman Paket Wisata */
 .page-paket {
   background-color: #f8f9fa;
